@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="view_order_form_add_delivery_location" model="ir.ui.view">
+        <field name="name">sale.order.form.add.delivery.location</field>
+        <field name="model">sale.order</field>
+        <field name="inherit_id" ref="sale.view_order_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='order_line']//list//field[@name='product_uom_qty']" position="after">
+                <field name="delivery_location_id"
+                       optional="show"
+                       domain="[('usage', 'in', ['internal', 'customer'])]"/>
+            </xpath>
+        </field>
+    </record>
+</odoo>

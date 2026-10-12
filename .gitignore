@@ -1,0 +1,6 @@
+*
+!*/
+!.gitignore
+!README*
+!custom_addons/sale_location_picking/
+!custom_addons/sale_location_picking/**

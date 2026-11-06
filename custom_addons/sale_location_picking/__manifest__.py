@@ -1,6 +1,6 @@
 {
-    "name": "Sale Delivery Location per Line",
-    "summary": "Choose a stock destination for each sales order line",
+    "name": "Sale Source Warehouse per Line",
+    "summary": "Choose the source warehouse for each sales order line",
     "version": "19.0.1.0.0",
     "category": "Sales/Sales",
     "license": "LGPL-3",
